@@ -1,0 +1,358 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-09-05T10:54:34.791Z",
+  "designatedAdminEmail": "addepalliabhiram444@gmail.com",
+  "users": [
+    {
+      "id": "emp_10928",
+      "email": "rajesh.sharma@mospi.gov.in",
+      "name": "Dr. Rajesh V. Sharma",
+      "designation": "Senior Statistical Officer (SSO)",
+      "department": "National Sample Survey Office (NSO FOD - North Zone)",
+      "cadre": "Subordinate Statistical Service (SSS)",
+      "empId": "MoSPI-SSS-2018-941",
+      "roleId": "sso",
+      "isAdmin": false,
+      "smartLearningScore": 1000,
+      "streakDays": 14,
+      "coursesCompleted": 12,
+      "quizzesTaken": 38,
+      "badgesEarned": 8,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "currentSkills": {
+        "National Accounts & GDP": 62,
+        "Sample Survey Design": 88,
+        "Price Statistics (CPI/WPI)": 74,
+        "R/Python Statistical Analytics": 58,
+        "Time Series & Forecasting": 64,
+        "AI & Automation in Surveys": 45,
+        "Data Governance & Ethics": 82
+      }
+    },
+    {
+      "id": "admin_101",
+      "email": "addepalliabhiram444@gmail.com",
+      "name": "Abhiram Addepalli (Director General)",
+      "designation": "Director General & Platform Administrator",
+      "department": "Ministry of Statistics & Programme Implementation (HQ)",
+      "cadre": "Indian Statistical Service (ISS / Executive Admin)",
+      "empId": "MoSPI-ADMIN-2026-001",
+      "roleId": "iss_officer",
+      "isAdmin": true,
+      "smartLearningScore": 995,
+      "streakDays": 45,
+      "coursesCompleted": 30,
+      "quizzesTaken": 72,
+      "badgesEarned": 20,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "currentSkills": {
+        "National Accounts & GDP": 95,
+        "Sample Survey Design": 98,
+        "Price Statistics (CPI/WPI)": 92,
+        "R/Python Statistical Analytics": 90,
+        "Time Series & Forecasting": 94,
+        "AI & Automation in Surveys": 88,
+        "Data Governance & Ethics": 99
+      }
+    }
+  ],
+  "benchmarkRoles": {
+    "iss_officer": {
+      "title": "Indian Statistical Service (ISS) Officer",
+      "benchmarks": {
+        "National Accounts & GDP": 90,
+        "Sample Survey Design": 95,
+        "Price Statistics (CPI/WPI)": 85,
+        "R/Python Statistical Analytics": 80,
+        "Time Series & Forecasting": 85,
+        "AI & Automation in Surveys": 75,
+        "Data Governance & Ethics": 90
+      }
+    },
+    "sso": {
+      "title": "Senior Statistical Officer (SSO - NSO FOD)",
+      "benchmarks": {
+        "National Accounts & GDP": 70,
+        "Sample Survey Design": 90,
+        "Price Statistics (CPI/WPI)": 80,
+        "R/Python Statistical Analytics": 75,
+        "Time Series & Forecasting": 70,
+        "AI & Automation in Surveys": 80,
+        "Data Governance & Ethics": 85
+      }
+    }
+  },
+  "courses": [
+    {
+      "id": "course_1",
+      "title": "Advanced GDP & GVA Estimation Methodologies (SNA 2008 / 2025 Standard)",
+      "category": "National Accounts",
+      "level": "Advanced",
+      "duration": "12 Hours",
+      "enrolledCount": 1420,
+      "rating": 4.9,
+      "provider": "NSO Training Division & ISI Kolkata"
+    },
+    {
+      "id": "course_2",
+      "title": "Python & R for Large Scale Sample Survey Data Processing",
+      "category": "Data Science & Statistics",
+      "level": "Intermediate",
+      "duration": "18 Hours",
+      "enrolledCount": 2850,
+      "rating": 4.8,
+      "provider": "MoSPI AI & Digital Cell"
+    }
+  ],
+  "mentors": [
+    {
+      "id": "m_1",
+      "name": "Shri Alok Kumar, ISS",
+      "role": "Additional Director General (NAD, MoSPI)",
+      "expertise": "National Accounts & Macroeconomic Modeling",
+      "experience": "24 Years in ISS",
+      "availableSlots": [
+        "Tomorrow 4:00 PM",
+        "Thursday 11:00 AM"
+      ],
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "sessionsCompleted": 142
+    },
+    {
+      "id": "m_2",
+      "name": "Dr. Sunita Pattanaik",
+      "role": "Professor of Econometrics, ISI Kolkata",
+      "expertise": "Survey Sampling & Small Area Estimation",
+      "experience": "19 Years Academic & Consulting",
+      "availableSlots": [
+        "Wednesday 2:30 PM",
+        "Friday 5:00 PM"
+      ],
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "sessionsCompleted": 98
+    },
+    {
+      "id": "m_3",
+      "name": "Shri Vikrant Saxena, ISS",
+      "role": "Director (Price Statistics Division)",
+      "expertise": "CPI/WPI Rebase & High-Frequency Indicators",
+      "experience": "16 Years in ISS",
+      "availableSlots": [
+        "Today 6:00 PM",
+        "Thursday 3:00 PM"
+      ],
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "sessionsCompleted": 210
+    }
+  ],
+  "badges": [
+    {
+      "id": "b_1",
+      "title": "Survey Methodology Master",
+      "category": "Expertise",
+      "icon": "Award",
+      "earnedDate": "14 Aug 2026",
+      "description": "Completed 5 advanced modules on NSO Sampling Frameworks with >90% quiz accuracy.",
+      "awardedTo": "emp_10928"
+    },
+    {
+      "id": "b_2",
+      "title": "14-Day Upskilling Streak",
+      "category": "Consistency",
+      "icon": "Zap",
+      "earnedDate": "02 Sep 2026",
+      "description": "Maintained daily active learning on StatIQ platform for 14 consecutive days.",
+      "awardedTo": "emp_10928"
+    },
+    {
+      "id": "b_3",
+      "title": "National Accounts Specialist",
+      "category": "Domain",
+      "icon": "TrendingUp",
+      "earnedDate": "20 Jul 2026",
+      "description": "Passed National Accounts GVA Estimation AI Viva Voce with Distinction.",
+      "awardedTo": "emp_10928"
+    },
+    {
+      "id": "b_4",
+      "title": "Python Data Pioneer",
+      "category": "Technology",
+      "icon": "Code",
+      "earnedDate": "10 Jun 2026",
+      "description": "Automated 3 microdata validation routines using StatIQ Python sandbox.",
+      "awardedTo": "emp_10928"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert_1",
+      "courseId": "course_1",
+      "courseTitle": "Advanced GDP & GVA Estimation Methodologies",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "issueDate": "20 Aug 2026",
+      "grade": "Distinction",
+      "score": 94,
+      "certNo": "STATIQ-2026-GDP-10928",
+      "issuedBy": "Ministry of Statistics & Programme Implementation (MoSPI)"
+    },
+    {
+      "id": "cert_2",
+      "courseId": "course_3",
+      "courseTitle": "Consumer Price Index (CPI) Basket Rebase & Price Collection Audits",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "issueDate": "05 Sep 2026",
+      "grade": "Pass",
+      "score": 79,
+      "certNo": "STATIQ-2026-CPI-10928",
+      "issuedBy": "Price Statistics Division (PSD), MoSPI"
+    }
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "userId": "emp_10928",
+      "name": "Dr. Rajesh V. Sharma",
+      "department": "National Sample Survey Office (NSO FOD - North Zone)",
+      "score": 1000,
+      "streak": 14,
+      "badge": "Master Analyst"
+    }
+  ],
+  "quizLogs": [
+    {
+      "id": "log_1788604278751",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "docTitle": "MoSPI National Accounts 2025",
+      "score": 4,
+      "total": 4,
+      "pointsAwarded": 45,
+      "timestamp": "2026-09-05T10:31:18.751Z"
+    },
+    {
+      "id": "log_1788604298581",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "docTitle": "MoSPI National Accounts 2025",
+      "score": 4,
+      "total": 4,
+      "pointsAwarded": 45,
+      "timestamp": "2026-09-05T10:31:38.581Z"
+    },
+    {
+      "id": "log_1788604330124",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "docTitle": "MoSPI National Accounts 2025",
+      "score": 4,
+      "total": 4,
+      "pointsAwarded": 45,
+      "timestamp": "2026-09-05T10:32:10.124Z"
+    },
+    {
+      "id": "log_1788604451099",
+      "userId": "emp_10928",
+      "userName": "Dr. Rajesh V. Sharma",
+      "docTitle": "MoSPI National Accounts 2025",
+      "score": 4,
+      "total": 4,
+      "pointsAwarded": 45,
+      "timestamp": "2026-09-05T10:34:11.099Z"
+    }
+  ],
+  "vivaEvaluations": [],
+  "mentorBookings": [],
+  "feedback": [
+    {
+      "id": "fb_1",
+      "userId": "emp_10928",
+      "officer": "Dr. Rajesh V. Sharma (SSO)",
+      "course": "Advanced GDP & GVA Estimation",
+      "rating": 5,
+      "nps": 9,
+      "comment": "The AI Quiz generated from page 14 of the National Accounts manual was exceptionally accurate for base year rebase preparation.",
+      "createdAt": "2026-08-21T10:00:00Z"
+    },
+    {
+      "id": "fb_2",
+      "userId": "emp_20192",
+      "officer": "Priya Sundaram (AD)",
+      "course": "Python for Large Scale Sample Surveys",
+      "rating": 5,
+      "nps": 10,
+      "comment": "Hands-on Pandas unit level microdata cleaning snippets saved me 3 hours of manual formula checking.",
+      "createdAt": "2026-09-01T14:30:00Z"
+    },
+    {
+      "id": "fb_3",
+      "userId": "emp_30441",
+      "officer": "Amitabh Banerjee (SO)",
+      "course": "Consumer Price Index WebScraping",
+      "rating": 4,
+      "nps": 8,
+      "comment": "Very good module on promotional price variance filtering. Recommend adding more e-commerce API examples.",
+      "createdAt": "2026-09-03T09:15:00Z"
+    }
+  ],
+  "predictiveDemand": [
+    {
+      "skill": "AI & ML in Microdata Audits",
+      "currentSupply": 32,
+      "projectedDemand2027": 88
+    },
+    {
+      "skill": "Python for Survey Processing",
+      "currentSupply": 54,
+      "projectedDemand2027": 92
+    },
+    {
+      "skill": "Geospatial GIS Statistics",
+      "currentSupply": 41,
+      "projectedDemand2027": 85
+    },
+    {
+      "skill": "Big Data & GST Analysis",
+      "currentSupply": 48,
+      "projectedDemand2027": 95
+    },
+    {
+      "skill": "Time Series X-13ARIMA",
+      "currentSupply": 62,
+      "projectedDemand2027": 78
+    }
+  ],
+  "departmentBreakdown": [
+    {
+      "name": "NAD (National Accounts)",
+      "active": 2150,
+      "completionRate": 88,
+      "skillScore": 84
+    },
+    {
+      "name": "NSO FOD (Field Ops)",
+      "active": 6420,
+      "completionRate": 82,
+      "skillScore": 78
+    },
+    {
+      "name": "PSD (Price Statistics)",
+      "active": 1850,
+      "completionRate": 91,
+      "skillScore": 86
+    },
+    {
+      "name": "ESD (Economic Stats)",
+      "active": 1410,
+      "completionRate": 85,
+      "skillScore": 81
+    },
+    {
+      "name": "State DES Units",
+      "active": 1060,
+      "completionRate": 74,
+      "skillScore": 71
+    }
+  ]
+}
